@@ -58,8 +58,8 @@ football_prediction/
 git clone https://github.com/dhruvin2506/football_prediction.git
 cd football_prediction
 
-Create and activate a virtual environment:
-
+2. Create and activate a virtual environment:
+```bash
 python -m venv venv
 # On Windows:
 venv\Scripts\activate
