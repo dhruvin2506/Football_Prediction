@@ -15,7 +15,6 @@ Football Predictor Pro uses historical match data and advanced statistics to pre
 - **Model Performance Metrics**: View and analyze prediction accuracy
 
 ## Project Structure
-
 football_prediction/
 ├── data/
 │   ├── raw/                  # Raw match data
@@ -54,44 +53,47 @@ football_prediction/
 ## Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/dhruvin2506/football_prediction.git
+
+git clone https://github.com/yourusername/football_prediction.git
 cd football_prediction
 
 2. Create and activate a virtual environment:
-```bash
+   
 python -m venv venv
 # On Windows:
 venv\Scripts\activate
 # On Unix or MacOS:
 source venv/bin/activate
 
-Install required packages:
+3. Install required packages:
 
 pip install -r requirements.txt
 
-Set up your .env file:
+4. Set up your .env file:
 
 RAPID_API_KEY=your_api_key_here
 RAPID_API_HOST=api-football-v1.p.rapidapi.com
+
 Usage
 
-Collect match data:
+1. Collect match data:
 
 python src/data/data_collection.py
 
-Preprocess the data:
+2. Preprocess the data:
 
 python src/data/preprocessing.py
 
-Train the model:
+3. Train the model:
 
 python src/models/train.py
 
-Run the web application:
+4. Run the web application:
 
 streamlit run app.py
+
 Features in Detail
+
 Data Collection
 
 Automated data collection from football API
@@ -152,14 +154,5 @@ Inspired by various sports prediction models and research papers
 Thanks to the open-source community for the tools and libraries used
 
 Contact
-Your Dhruvin Patel - dhruvin2506@gmail.com
+Dhruvin Patel - dhruvin2506@gmail.com
 Project Link: https://github.com/dhruvin2506/football_prediction
-
-This README provides:
-1. Clear project overview
-2. Detailed installation instructions
-3. Usage guidelines
-4. Project structure explanation
-5. Feature descriptions
-6. Future improvements
-7. Contributing guidelines
